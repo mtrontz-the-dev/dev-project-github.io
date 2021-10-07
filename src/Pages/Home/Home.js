@@ -1,7 +1,7 @@
 import "./Home.css";
 import Slide from "react-reveal/Slide";
 import { Link } from "react-router-dom";
-import arnab from "../../assets/images/arnab.jpg";
+import mt-profile from "../../assets/images/mt-profile.jpg";
 import Mobile_application from "../../assets/images/Mobile_application.svg";
 import developer_activity from "../../assets/images/developer_activity.svg";
 import solution_mindset from "../../assets/images/solution_mindset.svg";
@@ -48,7 +48,7 @@ function Home() {
                       <div className="profile-pic-card">
                         <div className="profile-pic-card-inner center-flex-class">
                           <div className="profile-pic-card-front center-flex-class">
-                            <img src={arnab} alt="arnab" />
+                            <img src={mt-profile} alt="Matthew Trontz' Profile Picture" />
                           </div>
                           <div className="profile-pic-card-back  center-flex-class">
                             <div className="introParBody">
@@ -60,10 +60,10 @@ function Home() {
                           </div>
                         </div>
                       </div>
-                      {/* <img src={arnab} alt="arnab" /> */}
+                      {/* <img src={mt-profile} alt="Matthew Trontz' Profile Picture" /> */}
                     </div>
                     <div className="introParHead">
-                      <div className="uname">Arnab Datta</div>
+                      <div className="uname">mtrontz-the-dev</div>
                       <div className="utxt">
                         <strong>
                           Software Developer <span>💻</span>
@@ -78,15 +78,14 @@ function Home() {
                           />
                         </span>
 
-                        <span className="loc-txt">Kolkata, India</span>
+                        <span className="loc-txt">New Jersey, USA</span>
                       </div>
-
-                      {/* <span className="span1">Hey, I'm</span>
+                      <span className="span1">Hey, I'm</span>
                       <br></br>
-                      <span className="span2">Arnab Datta</span>
+                      <span className="span2">mtrontz-the-dev</span>
                       <br></br>
                       <span className="span3">Software Engineer </span>
-                      <span className="span31">💻</span> */}
+                      <span className="span31">💻</span>
                       <div className="span4">
                         <span className="span4-badges">Web</span>
                         <span className="span4-badges">Frontend</span>
@@ -218,14 +217,14 @@ const profilesArr = [
   {
     id: "li",
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/datta-arnab/",
+    link: "https://www.linkedin.com/in/mtrontz-the-dev/",
     iconlink: linkedin,
     color: "#007fc4",
   },
   {
     id: "gh",
     name: "GitHub",
-    link: "https://github.com/arnab-datta",
+    link: "https://github.com/mtrontz-the-dev",
     iconlink: github,
     color: "#0e0e0e",
   },
@@ -233,28 +232,28 @@ const profilesArr = [
   {
     id: "so",
     name: "Stack Overflow",
-    link: "https://stackoverflow.com/story/arnab-datta",
+    link: "https://stackoverflow.com/users/15817172/mtrontz-the-dev",
     iconlink: stackoverflow,
     color: "#ffb24a",
   },
   {
     id: "em",
     name: "Email",
-    link: "mailto:dattaarnab2013@gmail.com",
+    link: "mailto:mtrontz@trontzenterprises.com",
     iconlink: email,
     color: "linear-gradient(45deg, #d5135a, #f05924)",
   },
   {
     id: "fb",
     name: "Facebook",
-    link: "https://www.facebook.com/arnab.datta.babai/",
+    link: "https://www.facebook.com/matthew.trontz",
     iconlink: facebook,
     color: "#3b5a9a",
   },
   {
     id: "ins",
     name: "Instagram",
-    link: "https://www.instagram.com/urs_arnab_/",
+    link: "https://www.instagram.com/mtrontz_the_dev",
     iconlink: instagram,
     color:
       "linear-gradient(45deg, #405de6,#5851db, #833ab4, #c13584, #e1306c, #fd1d1d)",
@@ -262,7 +261,7 @@ const profilesArr = [
   {
     id: "tw",
     name: "Twitter",
-    link: "https://twitter.com/ArnabDatta8",
+    link: "https://twitter.com/mtrontz_the_dev",
     iconlink: twitter,
     color: "#60a9dc",
   },
